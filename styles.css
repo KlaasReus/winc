@@ -1,0 +1,20 @@
+body { 
+    color: red;
+    font: normal 16px Arial, Helvetica, sans-serif;
+}
+
+h1 { 
+    color: grey;
+}
+
+footer { 
+    color: purple;
+}
+
+.black-border {
+    border: 5px solid black;
+}
+
+#green-background {
+    background-color: green;
+}
