@@ -11,10 +11,26 @@ footer {
     color: purple;
 }
 
-.black-border {
-    border: 5px solid black;
+.p {
+    border: 5px solid green;
+    background-color: khaki;
+    margin: auto red solid;
+    width: auto;
+    padding: 5px;
+
 }
 
-#green-background {
-    background-color: green;
+.blue-background {
+    background-color: royalblue;
 }
+
+.center-title {
+    margin: 0 auto;
+    width: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }

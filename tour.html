@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Andijk</title>
+	</head>
+
+  <body>
+    <header><h1>Aanmelden voor een tour</h1></header>
+    <main>
+		<form name="contact" method="POST" data-netlify="true">
+    		<label for="name">Naam:</label><br>
+    		<input type="text" id="name" name="name"><br>
+
+			<label for="email">E-mail:</label><br>
+			<input type="text" id="email" name="email"><br>
+
+			<label for="telnummer">Telefoonnummer:</label><br>
+			<input type="text" id="telnummer" name="telnummer"><br>
+
+			<label for="leeftijd">Leeftijd:</label><br>
+			<input type="text" id="leeftijd" name="leeftijd"> <br>
+
+			<label for="tour"> Wat voor tour wilt u? </label> <br>
+			<input type="radio" name="tour" value="fiets"> Fiets
+			<input type="radio" name="tour" value="bus"> Bus
+			<input type="radio" name="tour" value="other"> Auto <br>
+
+			<label for="datum"> Welke dag zou u willen? </label> <br>
+			<input type="date" id="datum" name="datum"
+
+			<label for="extra"> Heeft u nog extra bijzonderheden? </label><br>
+			<textarea> Typ hier </textarea>   <br>
+		
+			<hr>
+			<input type="reset" />
+			<input type="submit" />
+
+  		</form>
+    </main>
+  </body>
+</html>
